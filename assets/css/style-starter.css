@@ -19652,25 +19652,37 @@ h2.resp-accordion:first-child {
 .w3l-servicesblock .info1 h6.progress-tittle {
     display: grid;
     grid-template-columns: 1fr auto;
-    width: 80%;
+    width: 85%;
 }
 
 .w3l-servicesblock .info2 h6.progress-tittle {
     display: grid;
     grid-template-columns: 1fr auto;
-    width: 95%;
+    width: 90%;
 }
 
 .w3l-servicesblock .info3 h6.progress-tittle {
     display: grid;
     grid-template-columns: 1fr auto;
-    width: 90%;
+    width: 80%;
 }
 
 .w3l-servicesblock .info4 h6.progress-tittle {
     display: grid;
     grid-template-columns: 1fr auto;
-    width: 75%;
+    width: 80%;
+}
+
+.w3l-servicesblock .info5 h6.progress-tittle {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    width: 70%;
+}
+
+.w3l-servicesblock .info6 h6.progress-tittle {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    width: 85%;
 }
 
 .w3l-servicesblock .progress {
