@@ -6,8 +6,8 @@ Este proyecto es mi primer modelo de página web, diseñado para una **agencia d
 El proyecto utiliza una plantilla descargada de **[W3Layouts](https://w3layouts.com/)** bajo su **Starter License**. Según la licencia, se mantiene el crédito en el footer: *"Design by W3Layouts"*.
 
 ## Tecnologías utilizadas
-- HTML5
-- CSS3
+- HTML
+- CSS
 - Imágenes libres de uso (de fuentes gratuitas como Unsplash, Pixabay o similares)
 - Plantilla original de W3Layouts (con crédito en el footer)
 
