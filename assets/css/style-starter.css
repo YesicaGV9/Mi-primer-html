@@ -4793,11 +4793,11 @@ fieldset:disabled .btn {
 
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .show > .nav-link {
-  color:#b23a48 !important;
+  color: #b23a48 !important;
 }
 
 .navbar-light .navbar-toggler {
-  color:#000 (0, 0, 0, 0.1);
+  color: #000 (0, 0, 0, 0.1);
 }
 
 .navbar-light .navbar-toggler-icon {
