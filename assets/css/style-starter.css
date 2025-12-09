@@ -7880,7 +7880,7 @@ fieldset:disabled .btn {
 }
 
 .mb-4 {
-margin-bottom: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
 }
 
 .mb-5 {
@@ -18953,16 +18953,39 @@ a.search-search:hover {
   border-radius: var(--border-radius);
 }
 
-.w3l-main-slider .w3l-slidehny-img:after {
+.w3l-main-content {
+  background: url("../images/marketing1.webp") center/cover no-repeat !important;
+  padding: 200px 0;
+  width: 100%;
+  position: relative;
+}
+
+/* Oscurecer solo el banner #home (NO afecta otros banners) */
+section#home {
+  position: relative;
+  z-index: 0;
+}
+
+section#home::before {
   content: "";
-  background: var(--layer);
   position: absolute;
   top: 0;
-  bottom: 0;
   left: 0;
-  right: 0;
-  z-index: 9;
-  border-radius: var(--border-radius);
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55); /* Ajusta aquí la opacidad */
+  z-index: 1;
+}
+
+/* Asegurar que el texto quede encima del overlay */
+section#home .container,
+section#home .row {
+  position: relative;
+  z-index: 2;
+}
+
+.w3l-main-content .w3l-slider-left-info {
+  margin-top: 60px; /* ajusta el número */
 }
 
 /*--/owl-slider--*/
@@ -19001,7 +19024,6 @@ a.search-search:hover {
 }
 
 /*--/Photobox-Effect--*/
-
 .photobox {
   --mediaPlaceholderRatio: var(--photoboxPlaceholderRatio, 50%);
 
@@ -19184,7 +19206,7 @@ triangular mask
 /*--/w3l-3-grids--*/
 /*--/w3l-index2--*/
 .w3l-circles-sec {
-  background: url(../images/banner5.jpg) no-repeat center;
+  background: url(../images/laptops.webp) no-repeat center;
   -ms-background-size: cover;
   background-size: cover;
   z-index: 0;
@@ -19997,7 +20019,7 @@ pre {
 /*--//error--*/
 /*--/inner-banner--*/
 .breadcrumb-bg-about {
-  background: url(../images/banner4.jpg) no-repeat;
+  background: url(../images/equipo.webp) no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -20533,7 +20555,7 @@ section.w3l-passion-mid-sec {
 
 /*--/w3l-video--*/
 .w3l-video {
-  background: url(../images/banner5.jpg) no-repeat center;
+  background: url(../images/manosjuntas.webp) no-repeat center;
   -ms-background-size: cover;
   background-size: cover;
   z-index: 0;
@@ -20556,19 +20578,6 @@ section.w3l-passion-mid-sec {
   z-index: -1;
 }
 
-.w3l-index5 {
-  background: url(../images/banner3.jpg) no-repeat center;
-  -ms-background-size: cover;
-  background-size: cover;
-  z-index: 0;
-  position: relative;
-  display: grid;
-  align-items: center;
-  background-size: cover;
-  z-index: 0;
-  position: relative;
-  border-radius: var(--border-radius);
-}
 
 .w3l-index5::before {
   content: "";
@@ -20645,9 +20654,11 @@ p.vhny-para {
   top: calc(50% - 40px);
 }
 
+.play-view .video-play-icon {  display: none !important;}
+
 /*--/testimonials--*/
 .w3l-clients .cusrtomer-layout {
-  background: url(../images/banner4.jpg) no-repeat center;
+  background: url(../images/equipo.webp) no-repeat center;
   -ms-background-size: cover;
   background-size: cover;
   z-index: 0;
@@ -20981,7 +20992,6 @@ p.vhny-para {
 }
 
 .w3l-footer-29-main .footer-list-29 ul li a {
-
 }
 
 .w3l-footer-29-main .footer-list-29 ul li a:hover,
