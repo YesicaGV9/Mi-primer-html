@@ -7880,8 +7880,7 @@ fieldset:disabled .btn {
 }
 
 .mb-4 {
-  color: #fed0bb;
-  margin-bottom: 1.5rem !important;
+margin-bottom: 1.5rem !important;
 }
 
 .mb-5 {
@@ -20949,7 +20948,7 @@ p.vhny-para {
   margin-bottom: 25px;
   font-weight: 600;
   position: relative;
-  color: #fff;
+  color: #fed0bb;
 }
 
 .w3l-footer-29-main .footer-list-29 ul li,
@@ -20969,7 +20968,7 @@ p.vhny-para {
 .w3l-footer-29-main p {
   font-size: 15px;
   line-height: 26px;
-  color: #c2c2c2;
+  color: #fed0bb;
 }
 
 .w3l-footer-29-main .footer-list-29 ul li a,
@@ -20978,11 +20977,11 @@ p.vhny-para {
 .w3l-footer-29-main a {
   font-size: 15px;
   line-height: 26px;
-  color: #c2c2c2;
+  color: #fed0bb;
 }
 
 .w3l-footer-29-main .footer-list-29 ul li a {
-  opacity: 0.8;
+
 }
 
 .w3l-footer-29-main .footer-list-29 ul li a:hover,
