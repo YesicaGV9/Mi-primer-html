@@ -18479,7 +18479,7 @@ header.nav-fixed {
 .navbar-expand-lg .navbar-nav .nav-link.show,
 .navbar-expand-lg .navbar-nav .nav-link.active,
 .navbar-expand-lg .navbar-nav .nav-link:hover {
-  color: var(--secondary-color);
+  color: var(--bs-secundary);
 }
 
 nav ul li a,
@@ -18580,13 +18580,15 @@ a.search-search:hover {
 /* Botón lupa oscuro solo Projects */
 body.projects-page.dark-mode a.search-search {
   background: #333 !important; /* fondo oscuro */
-  color: #fff !important;      /* icono blanco */
+  color: #fff !important; /* icono blanco */
 }
 
 /* Hover botón lupa oscuro solo Projects */
 body.projects-page.dark-mode a.search-search:hover {
-  background: var(--bs-dustymauve) !important; /* color de fondo al pasar el mouse */
-  color: #fff !important;      /* color del icono */
+  background: var(
+    --bs-dustymauve
+  ) !important; /* color de fondo al pasar el mouse */
+  color: #fff !important; /* color del icono */
   box-shadow: none !important; /* elimina cualquier sombra blanca */
 }
 
@@ -20591,7 +20593,6 @@ section.w3l-passion-mid-sec {
   z-index: -1;
 }
 
-
 .w3l-index5::before {
   content: "";
   background: var(--layer);
@@ -20667,7 +20668,9 @@ p.vhny-para {
   top: calc(50% - 40px);
 }
 
-.play-view .video-play-icon {  display: none !important;}
+.play-view .video-play-icon {
+  display: none !important;
+}
 
 /*--/testimonials--*/
 .w3l-clients .cusrtomer-layout {
