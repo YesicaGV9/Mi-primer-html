@@ -18967,7 +18967,50 @@ body.projects-page.dark-mode a.search-search:hover {
   position: relative;
   border-radius: var(--border-radius);
 }
-
+#banner-projects {
+  background: url("../images/proyecto.webp") center/cover no-repeat !important;
+  padding: 300px 0;
+  width: 100%;
+  position: absolute;
+  opacity: 0.5;
+}
+/* Oscurecer solo el banner #home (NO afecta otros banners) */
+section#banner-projects {
+  position: relative;
+  z-index: 0;
+}
+/* Asegurar que el texto quede encima del overlay */
+section#banner-projects,
+section#texto-banner {
+  position: relative;
+  z-index: 2;
+}
+section#texto-banner {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55); /* Ajusta aquí la opacidad */
+  z-index: 1;
+}
+section#texto-banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55); /* Ajusta aquí la opacidad */
+  z-index: 1;
+}
+/* Asegurar que el texto quede encima del overlay */
+section#banner-projects,
+#texto-banner {
+  position: relative;
+  z-index: 2;
+}
 .w3l-main-content {
   background: url("../images/marketing1.webp") center/cover no-repeat !important;
   padding: 200px 0;
