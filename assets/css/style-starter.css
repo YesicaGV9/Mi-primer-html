@@ -18577,6 +18577,19 @@ a.search-search:hover {
   color: #fff;
 }
 
+/* Botón lupa oscuro solo Projects */
+body.projects-page.dark-mode a.search-search {
+  background: #333 !important; /* fondo oscuro */
+  color: #fff !important;      /* icono blanco */
+}
+
+/* Hover botón lupa oscuro solo Projects */
+body.projects-page.dark-mode a.search-search:hover {
+  background: var(--bs-dustymauve) !important; /* color de fondo al pasar el mouse */
+  color: #fff !important;      /* color del icono */
+  box-shadow: none !important; /* elimina cualquier sombra blanca */
+}
+
 .w3lpopup form {
   border-radius: var(--border-radius);
   background: var(--bg-light);
